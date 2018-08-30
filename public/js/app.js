@@ -47404,6 +47404,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     mounted: function mounted() {
         this.update();
+        setInterval(this.update, 15000);
     },
 
 

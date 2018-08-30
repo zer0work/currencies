@@ -43,6 +43,7 @@
         },
         mounted() {
             this.update()
+            setInterval(this.update, 15000);
         },
 
         methods: {
@@ -54,7 +55,6 @@
                     this.is_refresh = false
                     this.id++
                 });
-
             }
         }
     }
